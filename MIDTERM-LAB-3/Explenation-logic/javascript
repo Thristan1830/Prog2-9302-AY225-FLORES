@@ -1,0 +1,7 @@
+The program utilizes the Node.js readline module to interactively prompt the user for a CSV file path and the fs module to read the file contents into memory.
+
+It parses the raw text into a 2D array (an array of arrays) using a regular expression that preserves data integrity by ignoring commas nested within quotes.
+
+For MP06, it leverages the Set object to extract unique values, while MP07 uses the localeCompare method for alphabetical sorting.
+
+Finally, MP08 implements a keyword filter by joining row elements into a string and checking for matches using the Array.prototype.filter method.
