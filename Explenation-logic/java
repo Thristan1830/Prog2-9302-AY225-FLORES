@@ -1,0 +1,7 @@
+The Java program utilizes the Scanner class to capture the user's file path and a BufferedReader paired with FileReader to efficiently stream the CSV data line-by-line.
+
+To handle the dataset, each row is parsed using a Regular Expression (Regex) that preserves quoted text and is then stored into a List<String[]>.
+
+For MP06, a HashSet is employed to automatically filter and store only unique values from the primary column.
+
+MP07 implements a custom Comparator within the sort() method to organize records alphabetically, while MP08 performs a keyword search by iterating through the list and using String.contains() to identify matching rows.
